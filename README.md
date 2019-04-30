@@ -17,7 +17,6 @@ Note, our preference would be to create an Xcode project for iOS, or Android Stu
 
 [Google Maps Geocoding API](https://developers.google.com/maps/documentation/geocoding/start) : Get Coordinates of a City
 
-
  [TimeZoneDB](https://timezonedb.com/)  : Get the Time using Coordinates
 
 **3.	How would you make your code testable?**
@@ -37,25 +36,22 @@ Note, our preference would be to create an Xcode project for iOS, or Android Stu
 When the user first boots up the app this is what you will see. A search Input, A button and a title. It is essentially empty
 
 
-![Beginning Screen](./ScreenShots/begin.png)
+<img src="./ScreenShots/begin.png " alt="Beginning" height="600">
 
 #### Empty Search
 If the user presses search with an empty search input they will receive a Toast at the bottom of the screen, notifying them that it cannot be empty
 
-
-![Empty Search](./ScreenShots/searchEmpty.png)
+<img src="./ScreenShots/searchEmpty.png " alt="Empty Search" height="600">
 
 #### City Search
 If the user searches a valid city, the app will render the most relevant searches. The user has the option to then add the this city to their __City Clocks__ List
 
-
-![Empty Search](./ScreenShots/citySearched.png)
+<img src="./ScreenShots/citySearched.png " alt="City Search" height="600">
 
 #### Added City
 If the user does press add, the city will be added to their __City Clocks__ list. It will Display the __City__, __Country Code__, __Time__, and __Time Zone__.
 
-
-![Empty Search](./ScreenShots/cityAdded.png)
+<img src="./ScreenShots/cityAdded.png " alt="Added City" height="600">
 
 #### City List
 The User can add as many cities they want to their __City Clock__ list. As you can see, they have the times for:
@@ -65,8 +61,7 @@ The User can add as many cities they want to their __City Clock__ list. As you c
     Gatineau, Quebec
     Oldenburg, Germany
 
-
-![Empty Search](./ScreenShots/cityList.png)
+<img src="./ScreenShots/cityList.png " alt="City List" height="600">
 
 # Features I would have liked to add
 
